@@ -1,0 +1,41 @@
+{
+  "file": "synthetic_ch96_seed0.npz",
+  "shape_spikes": [
+    800,
+    96,
+    100
+  ],
+  "axes": [
+    "trial",
+    "channel",
+    "time_bin"
+  ],
+  "direction_names": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "calibration_source": "primate_tuning_curves.csv",
+  "config": {
+    "n_channels": 96,
+    "trials_per_direction": 100,
+    "seed": 0,
+    "trial_duration_s": 1.0,
+    "bin_ms": 10.0,
+    "hold_end_s": 0.3,
+    "ramp_end_s": 0.5,
+    "min_unit_rate_hz": 0.5,
+    "silent_fraction": 0.16666666666666666,
+    "pref_dir_mode": "uniform",
+    "param_jitter_sigma": 0.1,
+    "trial_gain_sigma": 0.15,
+    "val_fraction": 0.15,
+    "test_fraction": 0.15
+  },
+  "notes": "Rates calibrated from fitted cosine tuning of real primate units; timing structure and trial-gain noise are assumptions."
+}

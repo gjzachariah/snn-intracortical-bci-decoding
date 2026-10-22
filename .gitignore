@@ -218,3 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 data/raw/*.mat 
 data/synthetic/*.npz 
+
+data/synthetic/*.npz
+__pycache__/
