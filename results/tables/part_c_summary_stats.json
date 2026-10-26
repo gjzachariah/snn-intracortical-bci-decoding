@@ -1,0 +1,87 @@
+{
+  "dataset": {
+    "trials": 800,
+    "channels": 96,
+    "time_bins": 100,
+    "bin_ms": 10.0,
+    "trial_duration_s": 1.0,
+    "silent_channels": 20,
+    "active_channels": 76,
+    "trials_per_direction": 100,
+    "train_val_test": [
+      560,
+      120,
+      120
+    ],
+    "overall_mean_rate_hz": 9.657669270833333,
+    "hold_mean_rate_hz": 9.663628472222221,
+    "movement_mean_rate_hz": 9.663046875000001,
+    "fraction_of_bins_with_spike": 0.09657669270833333,
+    "total_spikes": 741709,
+    "active_baseline_hz_median": 7.418014577291297,
+    "active_baseline_hz_max": 69.36929710719666,
+    "seed": 0
+  },
+  "fig1": {
+    "examples": [
+      {
+        "channel": 84,
+        "preferred_deg": 18.148809728465025,
+        "baseline_hz": 23.786810635258917,
+        "amplitude_hz": 14.418818581788747
+      },
+      {
+        "channel": 61,
+        "preferred_deg": 94.49942769134772,
+        "baseline_hz": 8.914645828171455,
+        "amplitude_hz": 3.4386783050137306
+      },
+      {
+        "channel": 76,
+        "preferred_deg": 173.1198309443022,
+        "baseline_hz": 29.725448364709443,
+        "amplitude_hz": 15.072480062903827
+      },
+      {
+        "channel": 49,
+        "preferred_deg": 227.84684390836182,
+        "baseline_hz": 25.750382596858298,
+        "amplitude_hz": 18.146600323778895
+      },
+      {
+        "channel": 71,
+        "preferred_deg": 281.1735493526992,
+        "baseline_hz": 40.025823067482,
+        "amplitude_hz": 9.709327144722776
+      },
+      {
+        "channel": 94,
+        "preferred_deg": 325.5708592136037,
+        "baseline_hz": 7.916399815880727,
+        "amplitude_hz": 4.661422454110617
+      }
+    ],
+    "corr_intended_vs_measured": 0.9995069042376864
+  },
+  "fig2": {
+    "n_neurons_shown": 76,
+    "share_peak_within_45deg_all": 0.9078947368421053,
+    "share_peak_within_45deg_strong_half": 1.0,
+    "colour_limit_hz": 8.148749999999993
+  },
+  "fig3": {
+    "example_trial_id": 2,
+    "direction": "E",
+    "n_preferring": 20,
+    "n_opposite": 21,
+    "preferring_change_movement_hz": 1.0654833333333336,
+    "opposite_change_movement_hz": -3.5906984126984125,
+    "preferring_change_hold_hz": 0.012027777777777833,
+    "opposite_change_hold_hz": -0.007328042328042292,
+    "spikes_in_example_trial": 913
+  },
+  "csv_export": {
+    "rows": 800,
+    "columns": 100
+  }
+}
