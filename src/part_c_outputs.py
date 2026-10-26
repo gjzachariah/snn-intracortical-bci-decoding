@@ -288,7 +288,8 @@ def figure3_raster_and_psth(data, direction: int = 2):
     ax2.set_ylabel("Change in rate vs hold (Hz)")
     ax2.legend(loc="center right", fontsize=8, frameon=False)
     ax2.set_xlim(0, cfg.trial_duration_s * 1000 - cfg.bin_ms)
-    fig.tight_layout(rect=(0, 0, 1, 0.97))
+    # tight_layout cannot handle the legend placed outside the axes, so spacing is set by hand
+    fig.subplots_adjust(left=0.09, right=0.985, top=0.925, bottom=0.075, hspace=0.38)
 
     mv = slice(int(round(cfg.ramp_end_s * 1000 / cfg.bin_ms)), None)
     hold = slice(0, hold_bins)
